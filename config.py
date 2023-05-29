@@ -3,7 +3,7 @@ import logging
 class Config:                                                                   
     API_ID = int(os.environ.get("API_ID", "20349869"))
     API_HASH = os.environ.get("API_HASH", "875652bb0c7032c857d30ece89d13786")       
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6118227179:AAGbIDxYzRs5yMPGYGV5_STCO9c6Y0JT5-U")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6118227179:AAEkMMCcY2artEgT9G6v8SEQL1o9HJv9KQY")
     BOT_SESSION = os.environ.get("BOT_SESSION", "forwardbot")
     OWNER_ID = os.environ.get("OWNER_ID", "6050947612")                             
     DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://tempvfy:MongoDB1432@vrfy.wbu5nnw.mongodb.net/?retryWrites=true&w=majority")  
